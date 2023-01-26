@@ -26,30 +26,30 @@
 							<form action="register" method="post">
 								<div class="form-group">
 									<label for="exampleInputEmail1"> Enter your name </label> <input
-										type="email" class="form-control form-control-sm"
+										type="email" name="name" class="form-control form-control-sm"
 										id="exampleInputEmail1" aria-describedby="emailHelp">
 								</div>
 
 								<div class="form-group">
 									<label for="exampleInputEmail1"> Enter Email address </label> <input
-										type="email" class="form-control form-control-sm"
+										type="email" name="email" class="form-control form-control-sm"
 										id="exampleInputEmail1" aria-describedby="emailHelp">
 								</div>
 								<div class="form-group">
 									<label for="exampleInputEmail1"> Enter Your Number </label> <input
-										type="email" class="form-control form-control-sm"
+										type="email" name="number" class="form-control form-control-sm"
 										id="exampleInputEmail1" aria-describedby="emailHelp">
 								</div>
 
 								<div class="form-group">
 									<label for="exampleInputPassword1">Enter Password </label> <input
-										type="password" class="form-control form-control-sm"
+										type="password" name="password" class="form-control form-control-sm"
 										id="exampleInputPassword1">
 								</div>
 								<div class="form-group">
 									<label for="exampleInputPassword1">Confirm Password </label> <a
 										href="#" style="float: right; font-size: 12px;"> Forgot
-										password? </a> <input type="password"
+										password? </a> <input type="password" name="cpassword"
 										class="form-control form-control-sm"
 										id="exampleInputPassword1">
 								</div>

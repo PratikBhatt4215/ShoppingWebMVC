@@ -23,15 +23,15 @@
     <div class="card-body">  
         <h1 class="card-title text-center">Login Here </h1>  
         <div class="card-text">  
-            <form action="Login" method="post">  
+            <form action="dologin" method="post">  
                 <div class="form-group">  
                     <label for="exampleInputEmail1"> Enter Email address </label>  
-                    <input type="email" class="form-control form-control-sm" id="exampleInputEmail1" aria-describedby="emailHelp">  
+                    <input type="email" name="email" class="form-control form-control-sm" id="exampleInputEmail1" aria-describedby="emailHelp">  
                 </div>  
                 <div class="form-group">  
                     <label for="exampleInputPassword1">Enter Password </label>  
                     <a href="#" style="float:right;font-size:12px;"> Forgot password? </a>  
-                    <input type="password" class="form-control form-control-sm" id="exampleInputPassword1">  
+                    <input type="password" name="password" class="form-control form-control-sm" id="exampleInputPassword1">  
                 </div>  
                 <button type="submit" class="btn btn-primary btn-block"> Sign in </button>  
                   
