@@ -1,0 +1,11 @@
+@charset "ISO-8859-1";
+
+.btn-home{
+	
+	padding: 10px;
+	cursor: pointer;
+	margin-left: 1rem;
+	text-decoration: none;
+	border: 1px solid red;
+	border-radius: 10%;
+}
