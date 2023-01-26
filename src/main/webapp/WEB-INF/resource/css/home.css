@@ -3,9 +3,16 @@
 .btn-home{
 	
 	padding: 10px;
+	color:white;
 	cursor: pointer;
 	margin-left: 1rem;
 	text-decoration: none;
-	border: 1px solid red;
 	border-radius: 10%;
+}
+ul li a{
+	color: white;
+	text-decoration: none;
+	font-size: 1rem;
+	
+	
 }

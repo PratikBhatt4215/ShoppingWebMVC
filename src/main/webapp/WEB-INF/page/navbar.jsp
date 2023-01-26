@@ -42,7 +42,7 @@
 						Cart</a></li>
 
 				<li class="btn-home"><a
-					href="<c:url value="/customer/registration" />">SignUp</a></li>
+					href="<c:url value="/register" />">SignUp</a></li>
 
 				<li class="btn-home"><a href="<c:url value="/login" />">
 						Login</a></li>
